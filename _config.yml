@@ -1,0 +1,11 @@
+# Site settings
+title: Gards | Developer
+email: gards.ladines@example.com
+description: > # this means to ignore newlines until "baseurl:"
+   A portfolio site by using Jekyll nad Github Pages.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gardebee.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+permalink: /:title
