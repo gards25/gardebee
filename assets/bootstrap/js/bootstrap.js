@@ -1930,7 +1930,7 @@ if (typeof jQuery === 'undefined') {
     }
 
     var startEvent = $.Event('show.bs.collapse')
-    this.$element.trigger(startEvent)
+    this.$element.triggerHandler(startEvent)
     if (startEvent.isDefaultPrevented()) return
 
     if (actives && actives.length) {
@@ -1973,7 +1973,7 @@ if (typeof jQuery === 'undefined') {
     if (this.transitioning || !this.$element.hasClass('in')) return
 
     var startEvent = $.Event('hide.bs.collapse')
-    this.$element.trigger(startEvent)
+    this.$element.triggerHandler(startEvent)
     if (startEvent.isDefaultPrevented()) return
 
     var dimension = this.dimension()
