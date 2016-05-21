@@ -9,3 +9,6 @@ url: "http://gards25.github.io/gardebee/" # the base hostname & protocol for you
 # Build settings
 markdown: kramdown
 permalink: /:title
+
+gems:
+  - jekyll-seo-tag
