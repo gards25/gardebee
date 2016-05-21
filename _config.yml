@@ -4,7 +4,7 @@ email: gards.ladines@example.com
 description: > # this means to ignore newlines until "baseurl:"
    A portfolio site by using Jekyll nad Github Pages.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://gards25.github.io/gardebee/" # the base hostname & protocol for your site
+url: "http://gards-cv.gbeel.com/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
